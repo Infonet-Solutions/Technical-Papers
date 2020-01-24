@@ -43,8 +43,6 @@ Ok, after all the considerations...
 
 **Let's Start!!!**
 
-#
-
 ## Configuration
 Our goal is to deploy a 4-arm CitrixADC<br/>
 For our lab we'll use the following 4 security zones and addresses:
