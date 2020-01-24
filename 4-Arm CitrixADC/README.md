@@ -104,7 +104,7 @@ If everything goes right, you now have a working CitrixADC deploy with Advanced 
 
 `Kudos to you!`
 
-We need to reach Backend servers, you can accomplish this with both Classic and Advanced routing because of the above VLAN binding
+Now we need to reach Backend servers, you can accomplish this with both Classic and Advanced routing because of the above VLAN binding
 
     > add route 192.168.100.0 255.255.255.0 192.168.1.254
 
