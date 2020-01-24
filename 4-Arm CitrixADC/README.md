@@ -1,6 +1,6 @@
 # 4-Arm CitrixADC Deployment
 
-As per CitrixADC Best Practics you should deploy an ADC with only 1 network interface, for security reasons
+As per CitrixADC Best Practics you should deploy an ADC with only 1 network interface, for security reasons<br/>
 That is, the appliance should be connected to only 1 security zone (A Demilitarized one would be better)<br/>
 This is not really applicable in a complex network environment, because this would require a DMZ host to bypass a lot of security rules in order to do it's job<br/>
 So here I'm going to discuss the most common implementation I see in my daily job
