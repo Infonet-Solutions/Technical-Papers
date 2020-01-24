@@ -71,11 +71,11 @@ Be sure to bind interfaces to their respective VLANs
     > bind vlan 10 -ifnum 0/1
     > bind vlan 10 -IPAddress 10.1.1.10 255.255.255.0
     > bind vlan 20 -ifnum 10/1
-    > bind vlan 20 -IPAddress 192.168.1.10
+    > bind vlan 20 -IPAddress 192.168.1.10 255.255.255.0
     > bind vlan 30 -ifnum 1/1
-    > bind vlan 30 -IPAddress 172.16.1.10
+    > bind vlan 30 -IPAddress 172.16.1.10 255.255.255.0
     > bind vlan 40 -ifnum 1/2
-    > bind vlan 40 -IPAddress 172.25.1.10
+    > bind vlan 40 -IPAddress 172.25.1.10 255.255.255.0
 
 We now need a PBR rule to orchestrate management traffic, the rule should be something like:
 
