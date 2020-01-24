@@ -100,7 +100,7 @@ After confirm the policy is working, you can change the default gateway of the a
     > add route 0.0.0.0 0.0.0.0 172.25.1.254
     > rm route 0.0.0.0 0.0.0.0 10.1.1.254
 
-If everything goes right, you now have a working CitrixADC deploy with Advanced Routing in plance!
+If everything goes right, you now have a working CitrixADC deploy with Advanced Routing in place!
 
 `Kudos to you!`
 
