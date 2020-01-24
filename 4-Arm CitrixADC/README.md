@@ -48,6 +48,7 @@ Ok, after all the considerations...
 ## Configuration
 Our goal is to deploy a 4-arm CitrixADC<br/>
 For our lab we'll use the following 4 security zones and addresses:
+
 | Zone | Network | Gateway | Addresses | VLAN ID |
 |---|---|---|---|---|
 | Management | 10.1.1.0/24 | 10.1.1.254 | 10.1.1.8 - NSIP01<br/>10.1.1.9 - NSIP02<br/>10.1.1.10 - SNIP | 10 |
